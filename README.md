@@ -12,8 +12,10 @@ Al modificar el script (en el package.json), dar especial atencion a los espacio
  "build": "tsup src/index.ts --format cjs,esm --dts"
 ``` 
 
-Y no esta:
+Y **NO** esta:
 
+```
   "build": "tsup src/index.ts --format cjs, esm --dts" 
+```  
 
 Como se pude observar, espacio en la definicion de las extenciones puede perjudicar el empaquetado.
