@@ -8,7 +8,9 @@ Dentro de las principales librerias q vamos a utilizar esta TSUP, la cual se enc
 
 Al modificar el script (en el package.json), dar especial atencion a los espacios que se dejan en el STRING, por ejemplo, la forma correcta de modificar la BUILD, es de esta manera:
 
+```
  "build": "tsup src/index.ts --format cjs,esm --dts"
+``` 
 
 Y no esta:
 
