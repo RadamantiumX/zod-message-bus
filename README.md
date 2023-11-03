@@ -1,6 +1,6 @@
 # ZOD MESSAGE BUS
 
-Utilizando la gestion de las paqueteria con PNPM, en esta libreria se desarrollará un sistema de solicitudes con el uso de ZOD, otra libreria destina a la validacion de los datos que estamos peticionando.
+Utilizando la gestion de las paqueteria con PNPM, en esta libreria se desarrollará un sistema de solicitudes con el uso de ZOD, otra libreria destinada a la validación de los datos que estamos peticionando.
 
 Dentro de las principales librerias q vamos a utilizar esta TSUP, la cual se encargara del empaquetamiento a BUILD de este proyecto.
 
@@ -19,3 +19,16 @@ Y **NO** esta:
 ```  
 
 Como se pude observar, espacio en la definicion de las extenciones puede perjudicar el empaquetado.
+
+## LINT
+
+Mejoramos el analisis del codigo fuente con la herramienta **LINTER**, para poder identificar posibles fallos en el desarrollo.
+
+## CONCATENACION DE COMANDO CI
+
+Utilizamos varios comando en uno solo:
+
+```
+"ci": "pnpm run lint && pnpm run test && pnpm run build"
+```
+
