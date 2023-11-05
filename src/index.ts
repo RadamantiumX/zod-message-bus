@@ -1,3 +1,3 @@
 export const hello = () => {
-    console.log("Hello world today")
+    console.log("Hello world")
 }
