@@ -17,6 +17,10 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RadamantiumX/zod-message-bus"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "@types/node": "^20.8.10",
